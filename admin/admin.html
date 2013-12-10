@@ -1,0 +1,42 @@
+<template name="admin">
+
+
+    <h1>Welcome Admin</h1>
+
+
+    <div class="PostArea" style="width: 900px">
+
+
+        <div class="row">
+            <div class="col-lg-10">
+                <div class="input-group" style="width: 100%">
+
+                    <input id="posttitle" type="text" class="form-control" placeholder="Title" style="width: 100%">
+                </div>
+                <!-- /input-group -->
+            </div>
+            <!-- /.col-lg-6 -->
+            <div class="col-lg-10">
+                <div class="input-group" style="width: 100%; margin-top: 10px">
+                    <textarea id="postdescription" type="text" class="form-control" placeholder="Description" style="width: 100%"></textarea>
+
+                </div>
+
+                <button id="PostSave" style="margin-top: 10px" type="button" class="btn  btn-success">
+                    Save
+                </button>
+
+                <!-- /input-group -->
+            </div>
+            <!-- /.col-lg-6 -->
+        </div>
+        <!-- /.row -->
+
+
+        {{> posts}}
+
+
+    </div>
+
+
+</template>
