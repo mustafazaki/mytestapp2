@@ -3,8 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/packages/iron-router" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/packages/meteor-bootstrap-3" vcs="Git" />
   </component>
 </project>
 
