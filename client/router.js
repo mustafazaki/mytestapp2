@@ -8,6 +8,11 @@ Router.map(function () {
 
 
     });
+
+    this.route('admin', {
+        path: '/admin',
+        template: 'admin'
+    });
     this.route('news', {
         path: '/news',
         template: 'news'
